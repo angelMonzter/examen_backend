@@ -1,0 +1,221 @@
+[
+  {
+    "numero": 1,
+    "pregunta": "- ¿Estudia la materia, la energía y la forma en que ambas se relacionan?",
+    "opciones": {
+      "a": "Biología",
+      "b": "Ciencia",
+      "c": "Física",
+      "d": "Matemáticas"
+    },
+    "respuesta_correcta": "Física"
+  },
+  {
+    "numero": 2,
+    "pregunta": "- ¿Tiene su origen con los griegos al tratar de explicar el inicio del universo y el \nmovimiento de los planetas?",
+    "opciones": {
+      "a": "Química",
+      "b": "Estadística",
+      "c": "Historia",
+      "d": "Física"
+    },
+    "respuesta_correcta": "Física"
+  },
+  {
+    "numero": 3,
+    "pregunta": "- ¿Elementos básicos que constituyen la física?",
+    "opciones": {
+      "a": "Tierra y Trabajo",
+      "b": "Fuego y Agua",
+      "c": "Mano de Obra y Materia Prima",
+      "d": "Tierra, Aire, Fuego y Agua"
+    },
+    "respuesta_correcta": "Tierra, Aire, Fuego y Agua"
+  },
+  {
+    "numero": 4,
+    "pregunta": "- ¿Quién comprobó que la tierra giraba alrededor del sol?",
+    "opciones": {
+      "a": "Galileo Galiley",
+      "b": "Mozart",
+      "c": "Zeus",
+      "d": "Platón"
+    },
+    "respuesta_correcta": "Galileo Galiley"
+  },
+  {
+    "numero": 5,
+    "pregunta": "- ¿Es un pedazo de materia que adquiere un tamaño y una forma determinada?",
+    "opciones": {
+      "a": "Dureza",
+      "b": "Cuerpo",
+      "c": "Volumen",
+      "d": "Espacio"
+    },
+    "respuesta_correcta": "Cuerpo"
+  },
+  {
+    "numero": 6,
+    "pregunta": "- ¿Es la resistencia que opone un cuerpo al corte?",
+    "opciones": {
+      "a": "Dureza",
+      "b": "Resistencia",
+      "c": "Fortaleza",
+      "d": "Fuerza"
+    },
+    "respuesta_correcta": "Dureza"
+  },
+  {
+    "numero": 7,
+    "pregunta": "- ¿Son aquellas que tienen la misma dirección y sentido?",
+    "opciones": {
+      "a": "Cinética",
+      "b": "Lineal",
+      "c": "Fuerza Colineal",
+      "d": "Ninguna de las anteriores"
+    },
+    "respuesta_correcta": "Fuerza Colineal"
+  },
+  {
+    "numero": 8,
+    "pregunta": "- ¿Son dos fuerzas que actúan sobre un mismo punto de un cuerpo y forman un \nángulo?",
+    "opciones": {
+      "a": "Fuerza Paralela",
+      "b": "Fuerza Concurrente",
+      "c": "Fuerza Lineal",
+      "d": "Fuerza Uniforme"
+    },
+    "respuesta_correcta": "Fuerza Concurrente"
+  },
+  {
+    "numero": 9,
+    "pregunta": "- ¿Es la representación gráfica de una fuerza con sus cuatro características?",
+    "opciones": {
+      "a": "Vector",
+      "b": "Línea",
+      "c": "Dirección",
+      "d": "Pendiente"
+    },
+    "respuesta_correcta": "Vector"
+  },
+  {
+    "numero": 10,
+    "pregunta": "- ¿Son fuentes de energía?",
+    "opciones": {
+      "a": "Petróleo",
+      "b": "Carbón",
+      "c": "Gas natural Hidroeléctrica",
+      "d": "Todos los anteriores"
+    },
+    "respuesta_correcta": "Todos los anteriores"
+  },
+  {
+    "numero": 11,
+    "pregunta": "- ¿Es la que tiene los cuerpos por tener una posición determinada?",
+    "opciones": {
+      "a": "Energía solar",
+      "b": "Energía mecánica",
+      "c": "Fuerza Pluvial",
+      "d": "Energía"
+    },
+    "respuesta_correcta": "Energía mecánica"
+  },
+  {
+    "numero": 12,
+    "pregunta": "- ¿Es el cambio en el estado de movimiento de un cuerpo producido por una \nfuerza?",
+    "opciones": {
+      "a": "Esfuerzo",
+      "b": "Energía",
+      "c": "Trabajo",
+      "d": "Fuerza"
+    },
+    "respuesta_correcta": "Trabajo"
+  },
+  {
+    "numero": 13,
+    "pregunta": "- ¿Se produce cuando un objeto, sustancia o partícula está en movimiento?",
+    "opciones": {
+      "a": "Energía fría",
+      "b": "Fuerza",
+      "c": "Fortaleza",
+      "d": "Energía Cinética"
+    },
+    "respuesta_correcta": "Energía Cinética"
+  },
+  {
+    "numero": 14,
+    "pregunta": "- ¿A toda fuerza llamada acción se opone otra llamada reacción, con la misma \ndirección, pero sentido contrario, esto se refiere?",
+    "opciones": {
+      "a": "Ley de gravedad",
+      "b": "Ley de acción y reacción",
+      "c": "Ley de la física",
+      "d": "Ley de Newton"
+    },
+    "respuesta_correcta": "Ley de acción y reacción"
+  },
+  {
+    "numero": 15,
+    "pregunta": "- ¿Estudia las causas que originan el movimiento de los cuerpos?",
+    "opciones": {
+      "a": "Resistencia",
+      "b": "Fuerza",
+      "c": "Dinámica",
+      "d": "Estática"
+    },
+    "respuesta_correcta": "Dinámica"
+  },
+  {
+    "numero": 16,
+    "pregunta": "- ¿Es la primera Ley de Newton?",
+    "opciones": {
+      "a": "Inercia",
+      "b": "Proporcionalidad",
+      "c": "Acción y Reacción",
+      "d": "Cinemática"
+    },
+    "respuesta_correcta": "Inercia"
+  },
+  {
+    "numero": 17,
+    "pregunta": "- ¿Estudia las diferentes clases de movimientos de los cuerpos sin entender las \ncausas que lo producen?",
+    "opciones": {
+      "a": "Estática",
+      "b": "Cinemática",
+      "c": "Física",
+      "d": "Relatividad"
+    },
+    "respuesta_correcta": "Cinemática"
+  },
+  {
+    "numero": 18,
+    "pregunta": "- ¿Elementos que intervienen en el movimiento?",
+    "opciones": {
+      "a": "Posición",
+      "b": "Tiempo, desplazamiento",
+      "c": "Velocidad y Aceleración",
+      "d": "Todos los anteriores"
+    },
+    "respuesta_correcta": "Todos los anteriores"
+  },
+  {
+    "numero": 19,
+    "pregunta": "- ¿Es toda porción definida y limitada de materia?",
+    "opciones": {
+      "a": "Cuerpo",
+      "b": "Masa",
+      "c": "Movimiento",
+      "d": "Materia"
+    },
+    "respuesta_correcta": "Cuerpo"
+  },
+  {
+    "numero": 20,
+    "pregunta": "- ¿Es la cantidad de materia que contiene un cuerpo?",
+    "opciones": {
+      "a": "Movimiento",
+      "b": "Masa",
+      "c": "Fuerza",
+      "d": "Volumen"
+    }
+  }
+]

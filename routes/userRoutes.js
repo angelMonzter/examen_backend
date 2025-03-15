@@ -7,7 +7,9 @@ import {
     editUser,
     deleteUser,
     perfilUser,
-    getIndividualUser
+    getIndividualUser,
+    getResults,
+    editPasswordAll
     //checkauthAdmin,
     //confirmUser,
     //forgotPassword,
@@ -24,10 +26,14 @@ router.post('/login', loginUser);
 router.post('/register-student', registerStudent);
 // Ruta para registrar un nuevo administrador
 router.post('/register', checkAuth, registerUser);
+// Ruta para editar contraseñas en general
+router.post('/password-update', checkAuth, editPasswordAll);
 // Ruta para obtener todos los administrador/estudiante
 router.get('/users', checkAuth, getUsers);
 // Ruta para obtener todos los administrador/estudiante
 router.get('/user/:id', checkAuth, getIndividualUser);
+// Ruta para obtener resultados de estudiante
+router.get('/results/:id', checkAuth, getResults);
 // Ruta para editar un administrador/estudiante
 router.put('/user-update/:id', checkAuth, editUser);
 // Ruta para eliminar un administrador/estudiante

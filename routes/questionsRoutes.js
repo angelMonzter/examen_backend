@@ -79,10 +79,11 @@ router.post("/upload-pdf", upload.single("pdf"), async (req, res) => {
       const filePath = `/uploads/${req.file.filename}`;
       console.log("📂 Archivo guardado en:", filePath); // Verificar en consola
       const id = uuidv4().slice(0, 10);
+      const fechaRegistro = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
   
       // Guardar en la BD
-      const query = "INSERT INTO resultados_examen (resultados_examen_id, usuario_sid, resultados) VALUES (?, ?, ?)";
-      await db.execute(query, [id, usuario_id, filePath]);
+      const query = "INSERT INTO resultados_examen (resultados_examen_id, usuario_sid, resultados, fecha_resultados) VALUES (?, ?, ?, ?)";
+      await db.execute(query, [id, usuario_id, filePath, fechaRegistro]);
   
       res.json({ message: "PDF guardado exitosamente", filePath });
     } catch (error) {

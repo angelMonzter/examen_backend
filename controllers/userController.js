@@ -35,9 +35,10 @@ const registerUser = async (req, res) => { // Declarar la función como async
 
             const id = uuidv4().slice(0, 10);
             //const token = uuidv4().slice(0, 10);
-
-            const insertUserQuery = "INSERT INTO usuarios (usuario_id, nombre_usuario, correo_usuario, password_usuario, tipo_usuario, nombre_escuela_usuario, telefono_usuario) VALUES (?, ?, ?, ?, 'admin', ?, ?)";
-            db.query(insertUserQuery, [id, nombre_usuario, correo_usuario, hash, '', ''], async (err, result) => {
+            const fechaRegistro = new Date().toISOString().slice(0, 19).replace('T', ' ');
+            
+            const insertUserQuery = "INSERT INTO usuarios (usuario_id, nombre_usuario, correo_usuario, password_usuario, tipo_usuario, nombre_escuela_usuario, telefono_usuario, fecha_creacion) VALUES (?, ?, ?, ?, 'admin', ?, ?, ?)";
+            db.query(insertUserQuery, [id, nombre_usuario, correo_usuario, hash, '', '', fechaRegistro], async (err, result) => {
                 if (err) throw err;
                 
                 // Enviar correo de verificación
@@ -59,7 +60,7 @@ const registerStudent = async (req, res) => { // Declarar la función como async
         telefono_usuario
     } = req.body;
 
-    if (!correo_usuario || !password_usuario || !nombre_usuario) {
+    if (!correo_usuario || !nombre_usuario) {
         return res.status(400).json({ message: 'Todos los campos son requeridos', type: 'error' });
     }
 
@@ -75,29 +76,25 @@ const registerStudent = async (req, res) => { // Declarar la función como async
             }
         }
 
-        // Encriptar la contraseña
-        bcrypt.hash(password_usuario, 10, async (err, hash) => { // Agregar async aquí también si usas await dentro
+        const id = uuidv4().slice(0, 10);
+        //const token = uuidv4().slice(0, 10);
+        const fechaRegistro = new Date().toISOString().slice(0, 19).replace('T', ' ');
+
+        const insertUserQuery = "INSERT INTO usuarios (usuario_id, nombre_usuario, correo_usuario, password_usuario, tipo_usuario, nombre_escuela_usuario, telefono_usuario, fecha_creacion) VALUES (?, ?, ?, ?, 'estudiante', ?, ?, ?)";
+        db.query(insertUserQuery, [id, nombre_usuario, correo_usuario, '', escuela_usuario, telefono_usuario, fechaRegistro], async (err, result) => {
             if (err) throw err;
+            
+            // Enviar correo de verificación
+            //await sendVerificationEmail(correo, nombre, token); // Aquí ahora el await es válido
 
-            const id = uuidv4().slice(0, 10);
-            //const token = uuidv4().slice(0, 10);
-
-            const insertUserQuery = "INSERT INTO usuarios (usuario_id, nombre_usuario, correo_usuario, password_usuario, tipo_usuario, nombre_escuela_usuario, telefono_usuario) VALUES (?, ?, ?, ?, 'estudiante', ?, ?)";
-            db.query(insertUserQuery, [id, nombre_usuario, correo_usuario, hash, escuela_usuario, telefono_usuario], async (err, result) => {
-                if (err) throw err;
-                
-                // Enviar correo de verificación
-                //await sendVerificationEmail(correo, nombre, token); // Aquí ahora el await es válido
-
-                res.status(201).json({ message: 'Registrado exitosamente.', type: 'success' });
-            });
+            res.status(201).json({ message: 'Registrado exitosamente.', type: 'success' });
         });
     });
 };
 
 // Obtener todos los usuarios
 const getUsers = (req, res) => {
-    const query = 'SELECT u.nombre_usuario, u.correo_usuario, u.tipo_usuario, u.nombre_escuela_usuario, u.telefono_usuario, u.usuario_id, re.resultados FROM usuarios u LEFT JOIN resultados_examen re ON re.usuario_sid = u.usuario_id';
+    const query = 'SELECT u.nombre_usuario, u.correo_usuario, u.tipo_usuario, u.nombre_escuela_usuario, u.telefono_usuario, u.usuario_id, re.resultados, re.fecha_resultados AS fecha_creacion FROM usuarios u LEFT JOIN resultados_examen re ON re.usuario_sid = u.usuario_id';
     db.query(query, (err, result) => {
         if (err) throw err;
         res.json(result);
@@ -109,6 +106,17 @@ const getIndividualUser = (req, res) => {
     const { id } = req.params;
 
     const query = 'SELECT nombre_usuario, correo_usuario, nombre_escuela_usuario, telefono_usuario, usuario_id FROM usuarios WHERE usuario_id = ?';
+
+    db.query(query, [id], async (err, result) => {
+        if (err) throw err;
+        res.json(result);
+    });
+};
+
+const getResults = (req, res) => {
+    const { id } = req.params;
+
+    const query = 'SELECT * FROM resultados_examen WHERE usuario_sid = ?';
 
     db.query(query, [id], async (err, result) => {
         if (err) throw err;
@@ -152,6 +160,42 @@ const editUser = (req, res) => {
     } catch (error) {
         console.error('Error encriptando la contraseña:', error);
         res.status(500).json({ message: 'Error al editar usuario', type: 'error'  });
+    }
+};
+
+// Editar un passwrod de usuario en general 
+const editPasswordAll = (req, res) => {
+    const { password_usuario } = req.body;
+console.log(req.body)
+    // Verificar si el ID y los campos requeridos fueron proporcionados
+    if (!password_usuario) {
+        return res.status(400).json({ message: 'Todos los campos son requeridos', type: 'error'  });
+    }
+
+    try {
+        // Encriptar la contraseña
+        bcrypt.hash(password_usuario, 10, async (err, hash) => { // Agregar async aquí también si usas await dentro
+            if (err) throw err;
+
+            // Obtener la fecha de actualizacion actual
+            //const fechaRegistro = new Date().toISOString().slice(0, 19).replace('T', ' ');
+
+            // Consulta para actualizar la usuario según el ID
+            const updateQuery = 'UPDATE usuarios SET password_usuario = ? WHERE tipo_usuario != "admin"';
+            db.query(updateQuery, [hash], (err, result) => {
+                if (err) throw err;
+
+                if (result.affectedRows === 0) {
+                    return res.status(404).json({ message: 'Error al actualizar contraseña', type: 'error'  });
+                }
+
+                res.status(200).json({ message: 'Contraseña actualizada', type: 'success', password_usuario: password_usuario});
+            });
+        });
+        
+    } catch (error) {
+        console.error('Error encriptando la contraseña:', error);
+        res.status(500).json({ message: 'Error al editar contraseña', type: 'error'  });
     }
 };
 
@@ -336,6 +380,8 @@ export {
     registerStudent,
     getUsers,
     perfilUser,
+    getResults,
+    editPasswordAll,
     //confirmUser,
     //forgotPassword,
     //recoberyPassword,

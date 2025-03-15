@@ -1,0 +1,222 @@
+[
+  {
+    "numero": 1,
+    "pregunta": "- ¿Se necesita en todos y cada uno de los niveles y áreas de la organización, \ndesde la atención a clientes hasta la negociación ejecutiva de alto nivel?",
+    "opciones": {
+      "a": "Razonamiento Físico",
+      "b": "Razonamiento Verbal",
+      "c": "Etimología",
+      "d": "Razonamiento Matemático"
+    },
+    "respuesta_correcta": "Razonamiento Verbal"
+  },
+  {
+    "numero": 2,
+    "pregunta": "- ¿Su finalidad es explicar ideas y1 conceptos en donde el autor no exprese su \nopinión personal?",
+    "opciones": {
+      "a": "Cognitivo",
+      "b": "Argumentativo",
+      "c": "Expositivo",
+      "d": "Lectura"
+    },
+    "respuesta_correcta": "Expositivo"
+  },
+  {
+    "numero": 3,
+    "pregunta": "- ¿Parte de un supuesto y busca persuadir al lector a tomar una determinada \nposición a favor o en contra?",
+    "opciones": {
+      "a": "Formativo",
+      "b": "Pensamiento",
+      "c": "Razonamiento",
+      "d": "Argumentativo"
+    },
+    "respuesta_correcta": "Argumentativo"
+  },
+  {
+    "numero": 4,
+    "pregunta": "- ¿Es un ejercicio que fortalece el razonamiento verbal?",
+    "opciones": {
+      "a": "Analogías",
+      "b": "Sinónimos",
+      "c": "Antónimos",
+      "d": "Todos los anteriores"
+    },
+    "respuesta_correcta": "Todos los anteriores"
+  },
+  {
+    "numero": 5,
+    "pregunta": "- ¿Son tipos de razonamientos verbal?",
+    "opciones": {
+      "a": "Ductivo",
+      "b": "Aductivo",
+      "c": "Inductivo",
+      "d": "Todas las anteriores"
+    },
+    "respuesta_correcta": "Todas las anteriores"
+  },
+  {
+    "numero": 6,
+    "pregunta": "- ¿Es un elemento del razonamiento Verbal?",
+    "opciones": {
+      "a": "Premisas",
+      "b": "Concertación",
+      "c": "Entendimiento",
+      "d": "Comprensión"
+    },
+    "respuesta_correcta": "Premisas"
+  },
+  {
+    "numero": 7,
+    "pregunta": "- Televisión es:",
+    "opciones": {
+      "a": "Escuchar",
+      "b": "Mirar",
+      "c": "Leer",
+      "d": "Pensar"
+    },
+    "respuesta_correcta": "Mirar"
+  },
+  {
+    "numero": 8,
+    "pregunta": "- Radio es:",
+    "opciones": {
+      "a": "Escuchar",
+      "b": "Observar",
+      "c": "Imaginar",
+      "d": "Comprender"
+    },
+    "respuesta_correcta": "Escuchar"
+  },
+  {
+    "numero": 9,
+    "pregunta": "- Sentar es a:",
+    "opciones": {
+      "a": "Mesa",
+      "b": "Suelo",
+      "c": "Tierra",
+      "d": "Silla"
+    },
+    "respuesta_correcta": "Silla"
+  },
+  {
+    "numero": 10,
+    "pregunta": "- Alemania es al:",
+    "opciones": {
+      "a": "Tequila",
+      "b": "Vino",
+      "c": "Agua",
+      "d": "Cerveza"
+    },
+    "respuesta_correcta": "Cerveza"
+  },
+  {
+    "numero": 11,
+    "pregunta": "- El día Lunes es a:",
+    "opciones": {
+      "a": "Semana",
+      "b": "Mes",
+      "c": "Año",
+      "d": "Día"
+    },
+    "respuesta_correcta": "Semana"
+  },
+  {
+    "numero": 12,
+    "pregunta": "- Un ángel es a:",
+    "opciones": {
+      "a": "Mal",
+      "b": "Bien",
+      "c": "Placer",
+      "d": "Verdad"
+    },
+    "respuesta_correcta": "Bien"
+  },
+  {
+    "numero": 13,
+    "pregunta": "- La siguiente frase es sinónimo de: “El perro mueve la cola”",
+    "opciones": {
+      "a": "El perro mueve su cuerpo",
+      "b": "El perro mueve el rabo",
+      "c": "El perro mueve sus patas",
+      "d": "El perro mueve sus orejas"
+    },
+    "respuesta_correcta": "El perro mueve el rabo"
+  },
+  {
+    "numero": 14,
+    "pregunta": "- “Me cortaré el cabello es sinónimo de:",
+    "opciones": {
+      "a": "Me tusare",
+      "b": "Me cortare la ceja",
+      "c": "Me cortaré el pelo",
+      "d": "Me cortaré las patillas"
+    },
+    "respuesta_correcta": "Me cortaré el pelo"
+  },
+  {
+    "numero": 15,
+    "pregunta": "- Abundante es sinónimo de:",
+    "opciones": {
+      "a": "Amplio",
+      "b": "Grande",
+      "c": "Mucho",
+      "d": "Ninguna de las anteriores"
+    },
+    "respuesta_correcta": "Mucho"
+  },
+  {
+    "numero": 16,
+    "pregunta": "- Alquilar es sinónimo de:",
+    "opciones": {
+      "a": "Prestar",
+      "b": "Rentar",
+      "c": "Adquirir",
+      "d": "Comprar"
+    },
+    "respuesta_correcta": "Rentar"
+  },
+  {
+    "numero": 17,
+    "pregunta": "- Alterado es sinónimo de:",
+    "opciones": {
+      "a": "Enojado",
+      "b": "Frustrado",
+      "c": "Nervioso",
+      "d": "Distraído"
+    },
+    "respuesta_correcta": "Enojado"
+  },
+  {
+    "numero": 18,
+    "pregunta": "- Barato es sinónimo",
+    "opciones": {
+      "a": "Caro",
+      "b": "Regalado",
+      "c": "Gratis",
+      "d": "Económico"
+    },
+    "respuesta_correcta": "Económico"
+  },
+  {
+    "numero": 19,
+    "pregunta": "- Cálido es sinónimo de:",
+    "opciones": {
+      "a": "Caliente",
+      "b": "Templado",
+      "c": "Tibio",
+      "d": "Frio"
+    },
+    "respuesta_correcta": "Caliente"
+  },
+  {
+    "numero": 20,
+    "pregunta": "- Castigar es sinónimo de:",
+    "opciones": {
+      "a": "Premio",
+      "b": "Culpa",
+      "c": "Capricho",
+      "d": "Sancionar"
+    },
+    "respuesta_correcta": "Sancionar"
+  }
+]

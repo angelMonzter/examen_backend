@@ -1,0 +1,209 @@
+[
+  {
+    "numero": 1,
+    "pregunta": "- Soldado – Ejercito",
+    "opciones": {
+      "a": "Ratón – Gato",
+      "b": "Llave – Llavero",
+      "c": "Paradoja – Contradicción",
+      "d": "Pulga – Perro"
+    },
+    "respuesta_correcta": "Llave – Llavero"
+  },
+  {
+    "numero": 2,
+    "pregunta": "- Pantalón – Camisa",
+    "opciones": {
+      "a": "Calcetín – Zapato",
+      "b": "Saco – Termo",
+      "c": "Camisa – Corbata",
+      "d": "Falda – Blusa"
+    },
+    "respuesta_correcta": "Falda – Blusa"
+  },
+  {
+    "numero": 3,
+    "pregunta": "- Tortuga – Caparazón",
+    "opciones": {
+      "a": "Zapato – Pie",
+      "b": "Caballero – Coraza",
+      "c": "Sombrero – Cabeza",
+      "d": "Vestido – Señora"
+    },
+    "respuesta_correcta": "Caballero – Coraza"
+  },
+  {
+    "numero": 4,
+    "pregunta": "- Dirigir – Guiar",
+    "opciones": {
+      "a": "Persuadir – Convencer",
+      "b": "Dificultar – Frenar",
+      "c": "Torcer Arrogar",
+      "d": "Imponer – Oprimir"
+    },
+    "respuesta_correcta": "Persuadir – Convencer"
+  },
+  {
+    "numero": 5,
+    "pregunta": "- Dirimir – Matrimonio",
+    "opciones": {
+      "a": "Privar – Quitar",
+      "b": "Soslayar – Problema  \nd) Justificar – Delito  \ne) Disolver – Contrato  \n6.- Conjeturar – Corroborar  \na) Presumir – Creer  \nb) Prescribir – Prescindir",
+      "c": "Barruntar – Confirmar",
+      "d": "Prescindir – Prescribir"
+    }
+  },
+  {
+    "numero": 7,
+    "pregunta": "- Hepatitis – Hígado",
+    "opciones": {
+      "a": "Artritis – Articulación",
+      "b": "Patología – Enfermedad",
+      "c": "Apéndice – Apendicitis",
+      "d": "Dolor – Muela"
+    },
+    "respuesta_correcta": "Artritis – Articulación"
+  },
+  {
+    "numero": 8,
+    "pregunta": "- Menguar – Medrar",
+    "opciones": {
+      "a": "Estribar – Bajar",
+      "b": "Acopiar – Acaparar",
+      "c": "Mancipar – Emancipar",
+      "d": "Acallar – Aquietar"
+    },
+    "respuesta_correcta": "Mancipar – Emancipar"
+  },
+  {
+    "numero": 9,
+    "pregunta": "- Antropología – Raza",
+    "opciones": {
+      "a": "Etiología – Causas",
+      "b": "Ontología – Conocimientos",
+      "c": "Estética – Moral",
+      "d": "Axiología – Valores"
+    },
+    "respuesta_correcta": "Axiología – Valores"
+  },
+  {
+    "numero": 10,
+    "pregunta": "- Fuego – Ceniza",
+    "opciones": {
+      "a": "Cirujano – Operación",
+      "b": "Fractura – Rehabilitación",
+      "c": "Herida – Cicatriz",
+      "d": "Flor – Jardín"
+    },
+    "respuesta_correcta": "Herida – Cicatriz"
+  },
+  {
+    "numero": 11,
+    "pregunta": "- Astros – Astronomía",
+    "opciones": {
+      "a": "Muebles – Ebanistería",
+      "b": "Estampilla – Filatelia",
+      "c": "Vitalidad – Biología",
+      "d": "Monedas – Numismática"
+    },
+    "respuesta_correcta": "Monedas – Numismática"
+  },
+  {
+    "numero": 12,
+    "pregunta": "- Cédula – Sufragio",
+    "opciones": {
+      "a": "Recibo – Honorario",
+      "b": "Factura – Cobro",
+      "c": "Voto – Candidato",
+      "d": "Sobre – Carta"
+    },
+    "respuesta_correcta": "Factura – Cobro"
+  },
+  {
+    "numero": 13,
+    "pregunta": "- Todo diagnostico debe ir __________ por ________",
+    "opciones": {
+      "a": "Reforzado – Un consejo",
+      "b": "Garantizado – Una curación",
+      "c": "Refrendado – Una receta",
+      "d": "Acompañado – Una curación"
+    }
+  },
+  {
+    "numero": 14,
+    "pregunta": "- La leche  _________ es el mejor alimento para ______. ________ demuestran \nque  si  alimentas  a  tu  bebé  con  lo  _________  previenes  de  enfermedades \nrespiratorias.",
+    "opciones": {
+      "a": "Gloria-niños-madres-esa leche",
+      "b": "de formula-bebes-investigaciones-tal leche",
+      "c": "materna-bebes-estudios-tu leche",
+      "d": "de vaca-personas-experiencias-leche de vaca"
+    },
+    "respuesta_correcta": "materna-bebes-estudios-tu leche"
+  },
+  {
+    "numero": 15,
+    "pregunta": "- Los refranes expresan la sabiduría _________decantada _________ mucho \ntiempo.",
+    "opciones": {
+      "a": "Científica – a través de",
+      "b": "Inculta – pese a su uso en",
+      "c": "Mágica – en el transcurso de",
+      "d": "Popular – a lo largo de"
+    },
+    "respuesta_correcta": "Popular – a lo largo de"
+  },
+  {
+    "numero": 16,
+    "pregunta": "- Por los cristales relucientes el __________ se difundía ________ los rostros \nateridos.",
+    "opciones": {
+      "a": "Sol – entibiando",
+      "b": "Aire – enfriando",
+      "c": "Polvo – ensuciando",
+      "d": "Perfume – endulzando"
+    },
+    "respuesta_correcta": "Sol – entibiando"
+  },
+  {
+    "numero": 17,
+    "pregunta": "- La ________ y atenta lectura del texto incremento _________ su comprensión.",
+    "opciones": {
+      "a": "acelerada – definitivamente",
+      "b": "breve – aceleradamente",
+      "c": "rápida – rotundamente",
+      "d": "reiterada – notablemente"
+    },
+    "respuesta_correcta": "reiterada – notablemente"
+  },
+  {
+    "numero": 18,
+    "pregunta": "- Descansa  _________  con  la  plena  confianza  de  que  su  avieso  plan  no \n_________",
+    "opciones": {
+      "a": "Confortablemente – resultaría",
+      "b": "Distraídamente – serviría",
+      "c": "Plácidamente – fallaría",
+      "d": "Atemorizado – fracasaría"
+    },
+    "respuesta_correcta": "Plácidamente – fallaría"
+  },
+  {
+    "numero": 19,
+    "pregunta": "- El inmenso y _______ árbol nos protegió no solo del viento sino también de la \n________",
+    "opciones": {
+      "a": "colorido – Oscuridad",
+      "b": "verde – humedad",
+      "c": "raleado - temperatura",
+      "d": "frondoso – lluvia"
+    },
+    "respuesta_correcta": "frondoso – lluvia"
+  },
+  {
+    "numero": 20,
+    "pregunta": "- Todo artista es víctima de su _________ y tiene que ser muy grande para no \nsucumbir __________ por él.",
+    "opciones": {
+      "a": "Trabajo – agotado",
+      "b": "Éxito – aplastado",
+      "c": "Temperamento – abandonado",
+      "d": "Esfuerzo – ahogado"
+    },
+    "respuesta_correcta": "Éxito – aplastado"
+  }
+]

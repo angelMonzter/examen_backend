@@ -1,0 +1,222 @@
+[
+  {
+    "numero": 1,
+    "pregunta": "- ¿Es la rama de la estadística que comprende la recopilación, organización y \nresumen de datos?",
+    "opciones": {
+      "a": "Estadística",
+      "b": "Probabilidad",
+      "c": "Descriptiva",
+      "d": "Inferencia"
+    },
+    "respuesta_correcta": "Descriptiva"
+  },
+  {
+    "numero": 2,
+    "pregunta": "- ¿Es el conjunto total de elementos bajo estudio por el cual existe un interés y es \nelegido por el investigador?",
+    "opciones": {
+      "a": "Conjunto",
+      "b": "Muestra",
+      "c": "Método",
+      "d": "Población"
+    },
+    "respuesta_correcta": "Población"
+  },
+  {
+    "numero": 3,
+    "pregunta": "- ¿Es en la cual se conocen todos los elementos en estudio?",
+    "opciones": {
+      "a": "Población finita",
+      "b": "Población infinita",
+      "c": "Probabilidad",
+      "d": "Educación"
+    },
+    "respuesta_correcta": "Población finita"
+  },
+  {
+    "numero": 4,
+    "pregunta": "- ¿Es una parte de la población por la cual existe interés?",
+    "opciones": {
+      "a": "Muestra",
+      "b": "Población",
+      "c": "Estadística",
+      "d": "Población Infinita"
+    },
+    "respuesta_correcta": "Muestra"
+  },
+  {
+    "numero": 5,
+    "pregunta": "- ¿En esta no se conocen todos los elementos en estudio?",
+    "opciones": {
+      "a": "Población infinita",
+      "b": "Muestra",
+      "c": "Probabilidad",
+      "d": "Objetivo"
+    },
+    "respuesta_correcta": "Población infinita"
+  },
+  {
+    "numero": 6,
+    "pregunta": "- ¿Se refiere a la forma en como son obtenido los datos que servirán para analizar \nel problema?",
+    "opciones": {
+      "a": "Organización",
+      "b": "Recopilación",
+      "c": "Presentación",
+      "d": "Título"
+    },
+    "respuesta_correcta": "Recopilación"
+  },
+  {
+    "numero": 7,
+    "pregunta": "- ¿Es un conjunto de datos que tienen características semejantes?",
+    "opciones": {
+      "a": "Intervalo de clase",
+      "b": "Límite real de clase",
+      "c": "Histograma",
+      "d": "Gráfica"
+    },
+    "respuesta_correcta": "Intervalo de clase"
+  },
+  {
+    "numero": 8,
+    "pregunta": "- Del siguiente intervalo de clase determine la anchura real del mismo (53-60)",
+    "opciones": {
+      "a": "10",
+      "b": "8",
+      "c": "9",
+      "d": "7"
+    },
+    "respuesta_correcta": "8"
+  },
+  {
+    "numero": 9,
+    "pregunta": "- ¿Son  aquellos  que  sirven  para  indicar  un  valor  que  tiende ser  el  mas \nrepresentativo de un conjunto de números?",
+    "opciones": {
+      "a": "Moda",
+      "b": "Media",
+      "c": "Media Geométrica",
+      "d": "Medidas de Tendencia central"
+    },
+    "respuesta_correcta": "Medidas de Tendencia central"
+  },
+  {
+    "numero": 10,
+    "pregunta": "- ¿El valor representa el promedio de los datos en estudio?",
+    "opciones": {
+      "a": "Media Aritmética",
+      "b": "Desviación estándar",
+      "c": "Varianza",
+      "d": "Cuartil"
+    },
+    "respuesta_correcta": "Media Aritmética"
+  },
+  {
+    "numero": 11,
+    "pregunta": "- ¿Divide a los datos en estudio en dos partes iguales?",
+    "opciones": {
+      "a": "Moda",
+      "b": "Mediana",
+      "c": "Varianza",
+      "d": "Media Armónica"
+    },
+    "respuesta_correcta": "Mediana"
+  },
+  {
+    "numero": 12,
+    "pregunta": "- Con los siguientes datos indique el valor de la moda  \n3, 2, 2, 1, 3, 2, 1, 3, 3",
+    "opciones": {
+      "a": "2",
+      "b": "1",
+      "c": "3",
+      "d": "Ninguna de las anteriores"
+    },
+    "respuesta_correcta": "3"
+  },
+  {
+    "numero": 13,
+    "pregunta": "- Indique el valor de la mediana de los siguientes datos \n3, 5, 2, 1, 2",
+    "opciones": {
+      "a": "2",
+      "b": "5",
+      "c": "3",
+      "d": "4"
+    },
+    "respuesta_correcta": "2"
+  },
+  {
+    "numero": 14,
+    "pregunta": "- ¿Divide a los datos en estudio en 10 partes iguales?",
+    "opciones": {
+      "a": "Cuartil",
+      "b": "Varianza",
+      "c": "Decil",
+      "d": "Percentil"
+    },
+    "respuesta_correcta": "Decil"
+  },
+  {
+    "numero": 15,
+    "pregunta": "- ¿Cuál es la probabilidad si se lanza una moneda de dos caras y que esta caiga \nsol?",
+    "opciones": {
+      "a": "20%",
+      "b": "30%",
+      "c": "45%",
+      "d": "50%"
+    },
+    "respuesta_correcta": "50%"
+  },
+  {
+    "numero": 16,
+    "pregunta": "- En una caja hay 40 pelotas de las cuales seis están defectuosas ¿Cuál es la \nprobabilidad de que se extraiga una pelota al azar y sea defectuosa?",
+    "opciones": {
+      "a": "20%",
+      "b": "15%",
+      "c": "25%",
+      "d": "50%"
+    },
+    "respuesta_correcta": "15%"
+  },
+  {
+    "numero": 17,
+    "pregunta": "- ¿Cuál es la probabilidad de que caiga un tres al lanzar un dado de seis caras?",
+    "opciones": {
+      "a": "16%",
+      "b": "22%",
+      "c": "16.66%",
+      "d": "30%"
+    },
+    "respuesta_correcta": "16.66%"
+  },
+  {
+    "numero": 18,
+    "pregunta": "- ¿Cuál es valor de 3 ! ?",
+    "opciones": {
+      "a": "1",
+      "b": "6",
+      "c": "10",
+      "d": "9"
+    },
+    "respuesta_correcta": "6"
+  },
+  {
+    "numero": 19,
+    "pregunta": "- ¿Cuál es el valor de la desviación estándar de los siguientes datos? \n10, 15, 13, 18, 14",
+    "opciones": {
+      "a": "2.6076",
+      "b": "3",
+      "c": "2.50",
+      "d": "3.6076"
+    },
+    "respuesta_correcta": "2.6076"
+  },
+  {
+    "numero": 20,
+    "pregunta": "- ¿Determine el valor de la Desviación media? \n10, 15, 13, 18, 14",
+    "opciones": {
+      "a": "3.5",
+      "b": "2.8",
+      "c": "2",
+      "d": "2.9"
+    },
+    "respuesta_correcta": "2"
+  }
+]

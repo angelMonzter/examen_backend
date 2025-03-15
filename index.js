@@ -64,7 +64,8 @@ const app = express();
 // Middleware
 app.use(bodyParser.json());
 
-const dominiosPermitidos = [process.env.BACKEND_URL, process.env.FRONTEND_URL];
+//const dominiosPermitidos = [process.env.BACKEND_URL, process.env.FRONTEND_URL];
+const dominiosPermitidos = [process.env.BACKEND_URL, 'https://vocacionplus.com.mx'];
 
 const corsOptions = {
   origin: function (origin, callback) {
@@ -98,4 +99,3 @@ const port = process.env.PORT || 4000;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
-
